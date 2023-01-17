@@ -1,0 +1,9 @@
+<div class="thesis-page">
+  <div class="thesis-title">{{thesis.title}}</div>
+  <div class="thesis-description"><b>Description:</b> {{thesis.description}} </div>
+  <div class="thesis-author"><b>Author:</b> {{thesis.teacherName}} </div>
+  <div class="btn-container">
+    <button class="btn myButton" (click)=closeDialog(true)
+    [disabled]="data.alreadyAdded"><span style="color: white;">Choose</span></button>
+  </div>
+</div>

@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "casian.bianga98@e-uvt.ro",
+      "username": "cbianga",
+      "password": "cbianga",
+      "role": "STUDENT",
+      "thesis": [
+        {
+          "id": 2,
+          "title": "Algorithms in computer algebra",
+          "description": "Implement fundamental algorithms in Computer Algebra (polynomial GCD, polynomial factorization)",
+          "teacherName": "Ionescu"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "firstName": "Max",
+      "lastName": "FreeMan",
+      "email": "ovidiu.popescu98@e-uvt.ro",
+      "username": "opopescu",
+      "password": "opopescu",
+      "role": "STUDENT",
+      "thesis": [
+        {
+          "id": 1,
+          "title": "Componente pentru un Cloud descentralizat",
+          "description": "Crearea unor componente ale unui sistem distribuit, descentralizat, care monitorizează și aplică politici pentru servicii Cloud care rulează pe calculatoare personale participante în rețea.  Implementare: algoritmi distribuiți, blockchain, criptografie, trusted execution environments",
+          "teacherName": "Ionescu"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "firstName": "Max",
+      "lastName": "FreeMan",
+      "email": "teacher1@e-uvt.ro",
+      "username": "teacher1",
+      "password": "teacher123",
+      "role": "TEACHER",
+      "thesis": []
+    },
+    {
+      "id": 3,
+      "firstName": "Max",
+      "lastName": "FreeMan",
+      "email": "teacher2@e-uvt.ro",
+      "username": "teacher2",
+      "password": "teacher123",
+      "role": "TEACHER",
+      "thesis": []
+    }
+  ],
+  "thesis": [
+    {
+      "id": 1,
+      "title": "Componente pentru un Cloud descentralizat",
+      "description": "Crearea unor componente ale unui sistem distribuit, descentralizat, care monitorizează și aplică politici pentru servicii Cloud care rulează pe calculatoare personale participante în rețea.  Implementare: algoritmi distribuiți, blockchain, criptografie, trusted execution environments",
+      "teacherName": "Ionescu"
+    },
+    {
+      "id": 2,
+      "title": "Algorithms in computer algebra",
+      "description": "Implement fundamental algorithms in Computer Algebra (polynomial GCD, polynomial factorization)",
+      "teacherName": "Ionescu"
+    },
+    {
+      "title": "Aplicatii ale sistemelor inteligente – Analiza evolutiei pietelor de capital/ Analiza evolutiei Bitcoin",
+      "description": "Aplicatii ale sistemelor inteligente – Analiza evolutiei pietelor de capital/ Analiza evolutiei Bitcoin",
+      "teacherName": "Popescu",
+      "id": 3
+    },
+    {
+      "title": "Infrastructure as a Code for Cloud-to-Edge continuum",
+      "description": "IaC for Cloud environments is based on templates for resources and services (like TOSCA). Extending this approach to heterogeneous resources like the devices at the edge of the network is a challenge. Proposal for such extensions and experiments are expected.",
+      "teacherName": "Elena",
+      "id": 6
+    },
+    {
+      "title": "Adaptive framework for parallel computations on heterogeneous platforms ",
+      "description": "OpenCL allows the worksloads to be shared by CPU and GPUs in executing the same code. Optimizing the partitioning between the heterogeneous devices involves heuristics. Experiments are expected, eg using machine learning, to solve the partitioning problems for concrete problems to be solved.",
+      "teacherName": "Cristian",
+      "id": 7
+    },
+    {
+      "title": "Aplicatii ale sistemelor inteligente – Analiza evolutiei pietelor de capital/ Analiza evolutiei Bitcoin",
+      "description": "teacher",
+      "id": 10
+    },
+    {
+      "title": "Tema de dizertatie",
+      "description": "descriere",
+      "teacherName": "Popescu",
+      "id": 11
+    }
+  ]
+}

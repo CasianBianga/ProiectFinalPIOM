@@ -1,0 +1,24 @@
+.page-container {
+  margin: 50px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container{
+  text-align: center;
+}
+
+button {
+  min-width: 200px;
+  margin: 10px;
+}

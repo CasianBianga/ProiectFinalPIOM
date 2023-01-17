@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="items" [routerLink]="['/login']" [queryParams]="{type: 'student'}" style="background-color:#378CEE;">
+        <div class="icon-wrapper">
+            <img style="margin-top: 50px;height: 300px;weight:300px;"  src="assets/student.png">
+        </div>
+        <div class="project-name">
+            <p style="color: black;margin-top: 50px;">Student</p>
+        </div>
+    </div>
+    <div class="items" routerLink="/login" [queryParams]="{type: 'teacher'}" style="background-color:#378CEE;">
+        <div class="icon-wrapper">
+            <img style="height: 300px;weight:300px;"  src="assets/profesor.png">
+        </div>
+        <div class="project-name">
+            <p style="color: black; margin-top: 50px;">Teacher</p>
+        </div>
+    </div>
+</div>

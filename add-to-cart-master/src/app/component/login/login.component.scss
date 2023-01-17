@@ -1,0 +1,26 @@
+.mat-form-field {
+  width: 100%;
+}
+
+mat-card-title,
+mat-card-content {
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}

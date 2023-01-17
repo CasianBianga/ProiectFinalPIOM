@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <ng-container *ngFor="let item of listOfThesis">
+      <div class="card col-md-3">
+        <div style="cursor: pointer" (click)="seeThesisDetails(item)">
+          <img style="margin-left: 15%;" src="assets/thesisItem.png" alt="">
+          <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.title}}</h5>
+          <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.description}}</p>
+        </div>
+        <button class="btn myButton" (click)=addThesis(item)
+        [disabled]="checkAlreadyAdded(item)"
+        ><span style="color: white;">Choose</span></button>
+      </div>
+    </ng-container>
+
+  </div>
+</div>

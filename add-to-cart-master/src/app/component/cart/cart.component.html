@@ -1,0 +1,46 @@
+<ng-container *ngIf="studentThesis.length !=0">
+  <div class="container">
+    <div class="card-table">
+      <div class="cart-product">
+        <table class="table table-responsive">
+          <thead>
+          <tr>
+            <th>Sr.No</th>
+            <th>Thesis name</th>
+            <th>Description</th>
+            <th>Author</th>
+            <th>Action</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let item of studentThesis; let i = index">
+            <td>{{i + 1}}</td>
+            <td>{{item.title}}</td>
+            <td style="width:25%; white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 10ch;">{{item.description}}</td>
+            <td>{{item.teacherName}}</td>
+            <td>
+              <button (click)="removeItem(item)" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</ng-container>
+
+
+<ng-container *ngIf="studentThesis.length ==0">
+  <div class="container">
+    <div class="card">
+      <h5 class="card-title">My thesis</h5>
+    </div>
+    <div class="center">
+      <img
+        src="assets\thesisItem.png"
+        alt="">
+      <h4>You have no thesis chosen!</h4>
+      <button routerLink="/student" class="btn btn-success" style="background-color: #378CEE">Choose your thesis</button>
+    </div>
+  </div>
+</ng-container>

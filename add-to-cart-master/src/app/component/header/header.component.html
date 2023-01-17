@@ -1,0 +1,17 @@
+<header>
+  <div class="navbar navbar-dark shadow-sm myColor">
+    <div class="navbar-brand align-item-center d-flex">
+      <img src="assets/icon.png" style="height: 50px;weight:50px; margin-left:10px;margin-right: 8px;">
+      <strong style="font-size: 30px;">My Thesis App</strong>
+    </div>
+    <div>
+      <button routerLink="" class="btn myColor" style="margin-right: 20px;" (click)="logout()" [hidden]="user.id == null">
+        Logout
+      </button>
+      <button routerLink="cart" class="btn myColor" [matBadge]="countThesis()"
+              [hidden]="user.id == null || user.role=='TEACHER'" style="margin-right: 20px;">
+        <img src="assets/thesis.png" style="height: 40px;weight:40px;">
+      </button>
+    </div>
+  </div>
+</header>
